@@ -1,9 +1,8 @@
 # NBD
 
-
 ## Problem Outline
 
-Consider a *computational cluster* consisting of a **job dispatcher device** and **N servers**, each equipped with its own processing and memory resources.\
+Consider a *computational cluster* consisting of a **job dispatcher device** and **$N$ servers**, each equipped with its own processing and memory resources.\
 The purpose of the challenge is to define a *dispatching algorithm* and *scheduling algorithms*, one for each server, so as to get the best possible mean job response time.
 
 #### Assumptions
