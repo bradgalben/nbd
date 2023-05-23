@@ -9,7 +9,7 @@ The goal is to develop a *dispatching algorithm* and *scheduling algorithms* for
 
 The following assumptions are made for the problem:
 
-- Each server has the same processing power <font size=24> **µ**</font>, expressed in GNCU.\
+- Each server has the same processing power <font size=38> **µ**</font>, expressed in GNCU.\
 Hence, the service time of a task is $x = CPU/µ$.
 - Each server has a memory amount of 1 GNMU.
 - Pre-emption is allowed as well as server sharing, if deemed useful.
