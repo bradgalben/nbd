@@ -20,7 +20,8 @@ Hence, the service time of a task is $x = CPU/µ$.
 Swapping a task from running to standby and back requires negligible time.
 - At any given time, the sum of all assigned memory workspaces to running tasks on a given server shall not exceed the overall memory of that server.
 
-**Constraints** : &emsp; **µ** = 0.1 &nbsp;, &emsp; **N** = 64\
+**Constraints** : &emsp; **µ** = 0.1 &nbsp;, &emsp; **N** = 64
+
 **Baseline algorithms:**\
 `Least Work Left` dispatching (LWL) and `First Come First Served` scheduling for servers (FCFS)
 
