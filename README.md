@@ -36,7 +36,7 @@ Metrics used to evaluate the performance of the computational cluster:
 
 The workload for the computational cluster is described by a dataset obtained from measurements on a production data center of Google, which is publicly available and can be downloaded from [here](https://github.com/MertYILDIZ19/Google_cluster_usage_traces_v3_Cell_a).
 
-The dataset is a five-column table in CSV format, comprising $2,329,133$ rows. 
+The dataset is a five-column table in CSV format, comprising $2,329,133$ rows.\
 Each column represents the following information:
 
 1. `Job_ID:` An integer number representing the identifier of a job.
