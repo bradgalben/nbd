@@ -24,13 +24,13 @@ Please refer to the original problem outline for further details.
 
 Metrics used to evaluate the performance of the computational cluster:
 
-- Job Response Time (R): Job response time is defined as the time elapsed from the arrival of the first task of a job until all tasks belonging to that job have been fully served. The mean job response time (R) is obtained by averaging the response times of all jobs.
+- `Job Response Time (R)`: Job response time is defined as the time elapsed from the arrival of the first task of a job until all tasks belonging to that job have been fully served. The mean job response time (R) is obtained by averaging the response times of all jobs.
 
-- Job Slowdown (S): Job slowdown is calculated as the ratio of the response time of a job to the sum of the service times of all tasks belonging to that job. The mean job slowdown (S) is obtained by averaging the slowdown values of all jobs.
+- `Job Slowdown (S)`: Job slowdown is calculated as the ratio of the response time of a job to the sum of the service times of all tasks belonging to that job. The mean job slowdown (S) is obtained by averaging the slowdown values of all jobs.
 
-- Utilization Coefficient (ρk): The utilization coefficient of server k (ρk) represents the fraction of time that server k is busy serving tasks. The overall mean utilization coefficient (ρ) is calculated as the average of ρk values for all servers: ρ = (ρ1 + ρ2 + ... + ρN) / N.
+- `Utilization Coefficient (ρk)`: The utilization coefficient of server k (ρk) represents the fraction of time that server k is busy serving tasks. The overall mean utilization coefficient (ρ) is calculated as the average of ρk values for all servers: ρ = (ρ1 + ρ2 + ... + ρN) / N.
 
-- Messaging Load (L): Messaging load refers to the number of messages exchanged between the dispatcher and servers for a given task dispatching. The mean message load (L) is obtained by averaging the message load values of all tasks.
+- `Messaging Load (L)`: Messaging load refers to the number of messages exchanged between the dispatcher and servers for a given task dispatching. The mean message load (L) is obtained by averaging the message load values of all tasks.
 
 
 
