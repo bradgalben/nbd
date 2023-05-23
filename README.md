@@ -3,7 +3,7 @@
 ## Challenge #2 Outline:
 
 Consider a *computational cluster* composed of a **job dispatcher device** and **$N$ servers**, each equipped with its own processing and memory resources.\
-The goal is to develop a dispatching algorithm and scheduling algorithms for the servers to achieve the best mean job response time.
+The goal is to develop a *dispatching algorithm* and *scheduling algorithms* for the servers to achieve the best mean job response time.
 
 #### Assumptions:
 
@@ -34,5 +34,12 @@ Metrics used to evaluate the performance of the computational cluster:
 
 #### Dataset:
 
-The workload for the computational cluster is described by a dataset obtained from measurements on a production data center of Google, which is publicly available. The dataset can be downloaded from [here](https://github.com/MertYILDIZ19/Google_cluster_usage_traces_v3_Cell_a).
+The workload for the computational cluster is described by a dataset obtained from measurements on a production data center of Google, which is publicly available and can be downloaded from [here](https://github.com/MertYILDIZ19/Google_cluster_usage_traces_v3_Cell_a).
 
+The dataset is a five-column table in CSV format, comprising $2,329,133$ rows. 
+Each column represents the following information:
+
+1. JID: An integer number representing the identifier of a job.
+2. TID: An integer number between $0% and $n<sub>j</sub> % representing the identifier of tasks belonging to job j.
+3. ta: Arrival time of a task measured in milliseconds.
+4. C: Running time in seconds required to run the task on a Google Normalized Computing Unit (GNCU).
