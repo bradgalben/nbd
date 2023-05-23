@@ -9,7 +9,8 @@ The goal is to develop a dispatching algorithm and scheduling algorithms for the
 
 The following assumptions are made for the problem:
 
-- Each server has the same processing power µ, expressed in GNCU. Hence, the service time of a task is X = C/µ.
+- Each server has the same processing power µ, expressed in GNCU.\
+Hence, the service time of a task is X = C/µ.
 - Each server has a memory amount of 1 GNMU.
 - Pre-emption is allowed as well as server sharing, if deemed useful.
 - It is not allowed to kill a job or a task, i.e., all tasks must be worked out eventually.
