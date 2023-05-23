@@ -16,7 +16,8 @@ Hence, the service time of a task is X = C/µ.
 - It is not allowed to kill a job or a task, i.e., all tasks must be worked out eventually.
 - The dispatcher and servers have knowledge of the exact service time of a task upon its arrival.
 - Delay and loss are negligible for message exchange among the dispatcher and the servers.
-- Each running task is assigned the memory space it requires as long as it is running. Swapping a task from running to standby and back requires negligible time.
+- Each running task is assigned the memory space it requires as long as it is running.\
+Swapping a task from running to standby and back requires negligible time.
 - At any given time, the sum of all assigned memory workspaces to running tasks on a given server shall not exceed the overall memory of that server.
 
 #### Metrics:
