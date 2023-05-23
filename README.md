@@ -1,11 +1,12 @@
-# nbd
+# NBD
 
 
-# Problem Outline
+## Problem Outline
 
-Consider a computational cluster consisting of a job dispatcher device and N servers, each equipped with its own processing and memory resources.
+Consider a *computational cluster* consisting of a **job dispatcher device** and **N servers**, each equipped with its own processing and memory resources.\
+The purpose of the challenge is to define a *dispatching algorithm* and *scheduling algorithms*, one for each server, so as to get the best possible mean job response time.
 
-## Assumptions
+#### Assumptions
 
 The following assumptions are made for the problem:
 
@@ -18,9 +19,7 @@ The following assumptions are made for the problem:
 - Each running task is assigned the memory space it requires as long as it is running. Swapping a task from running to standby and back requires negligible time.
 - At any given time, the sum of all assigned memory workspaces to running tasks on a given server shall not exceed the overall memory of that server.
 
-Please refer to the original problem outline for further details.
-
-## Metrics
+#### Metrics
 
 Metrics used to evaluate the performance of the computational cluster:
 
@@ -31,6 +30,7 @@ Metrics used to evaluate the performance of the computational cluster:
 - `Utilization Coefficient (ρk):` The utilization coefficient of server k (ρk) represents the fraction of time that server k is busy serving tasks. The overall mean utilization coefficient (ρ) is calculated as the average of ρk values for all servers: ρ = (ρ1 + ρ2 + ... + ρN) / N.
 
 - `Messaging Load (L):` Messaging load refers to the number of messages exchanged between the dispatcher and servers for a given task dispatching. The mean message load (L) is obtained by averaging the message load values of all tasks.
+
 
 
 
