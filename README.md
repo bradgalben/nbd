@@ -2,8 +2,8 @@
 
 ## Problem Outline
 
-Consider a *computational cluster* consisting of a **job dispatcher device** and **$N$ servers**, each equipped with its own processing and memory resources.\
-The purpose of the challenge is to define a *dispatching algorithm* and *scheduling algorithms*, one for each server, so as to get the best possible mean job response time.
+Consider a *computational cluster* composed of a **job dispatcher device** and **$N$ servers**, each equipped with its own processing and memory resources.\
+The goal is to develop a dispatching algorithm and scheduling algorithms for the servers to achieve the best mean job response time.
 
 #### Assumptions
 
