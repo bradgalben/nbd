@@ -5,7 +5,7 @@
 Consider a *computational cluster* composed of a **job dispatcher device** and **$N$ servers**, each equipped with its own processing and memory resources.\
 The goal is to develop a *dispatching algorithm* and *scheduling algorithms* for the servers to achieve the best mean job response time.
 
-#### Assumptions:
+### Assumptions:
 
 The following assumptions are made for the problem:
 
@@ -24,7 +24,7 @@ Swapping a task from running to standby and back requires negligible time.
 **Baseline algorithms:**\
 `Least Work Left` dispatching (LWL) and `First Come First Served` scheduling for servers (FCFS)
 
-#### Metrics:
+### Metrics:
 
 Metrics used to evaluate the performance of the computational cluster:
 
@@ -38,7 +38,7 @@ Metrics used to evaluate the performance of the computational cluster:
 
 ---------------------------------------------------------
 
-#### Dataset:
+### Dataset:
 
 The workload for the computational cluster is described by a dataset obtained from measurements on a production data center of Google, which is publicly available and can be downloaded from [here](https://github.com/MertYILDIZ19/Google_cluster_usage_traces_v3_Cell_a).
 
