@@ -39,9 +39,9 @@ The workload for the computational cluster is described by a dataset obtained fr
 The dataset is a five-column table in CSV format, comprising $2,329,133$ rows. 
 Each column represents the following information:
 
-1. `J_ID:` An integer number representing the identifier of a job.
-2. `Task_ID:` An integer number between $0$ and $n<sub>j</sub>$ representing the identifier of tasks belonging to job j.
-3. `$t<sub>a</sub>$:` Arrival time of a task measured in milliseconds.
+1. `Job_ID:` An integer number representing the identifier of a job.
+2. `Task_ID:` An integer number between $0$ and n<sub>j</sub> representing the identifier of tasks belonging to job j.
+3. `t<sub>a</sub>:` Arrival time of a task measured in milliseconds.
 4. `CPU:` Running time in seconds required to run the task on a Google Normalized Computing Unit (GNCU).
 5. `Memory:` Amount of memory required to run the task, expressed in Google Normalized Memory Unit (GNMU).
 
