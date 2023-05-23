@@ -20,6 +20,10 @@ Hence, the service time of a task is $x = CPU/µ$.
 Swapping a task from running to standby and back requires negligible time.
 - At any given time, the sum of all assigned memory workspaces to running tasks on a given server shall not exceed the overall memory of that server.
 
+**Constraints :**  $**µ** = 0.1 $
+
+---------------------------------------------------------
+
 #### Metrics:
 
 Metrics used to evaluate the performance of the computational cluster:
@@ -31,6 +35,8 @@ Metrics used to evaluate the performance of the computational cluster:
 - `Utilization Coefficient (ρk):` The utilization coefficient of server k (ρk) represents the fraction of time that server k is busy serving tasks. The overall mean utilization coefficient (ρ) is calculated as the average of ρk values for all servers: ρ = (ρ1 + ρ2 + ... + ρN) / N.
 
 - `Messaging Load (L):` Messaging load refers to the number of messages exchanged between the dispatcher and servers for a given task dispatching. The mean message load (L) is obtained by averaging the message load values of all tasks.
+
+---------------------------------------------------------
 
 #### Dataset:
 
@@ -45,3 +51,5 @@ Each column represents the following information:
 4. `CPU:` Running time in seconds required to run the task on a Google Normalized Computing Unit (GNCU).
 5. `Memory:` Amount of memory required to run the task, expressed in Google Normalized Memory Unit (GNMU).
 
+---------------------------------------------------------
+---------------------------------------------------------
