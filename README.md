@@ -9,7 +9,7 @@ The goal is to develop a *dispatching algorithm* and *scheduling algorithms* for
 
 The following assumptions are made for the problem:
 
-- Each server has the same processing power <font size=138> **µ**</font>, expressed in GNCU.<font size=4> **µ**</font>,\
+- Each server has the same processing power **µ**, expressed in GNCU.\
 Hence, the service time of a task is $x = CPU/µ$.
 - Each server has a memory amount of 1 GNMU.
 - Pre-emption is allowed as well as server sharing, if deemed useful.
@@ -20,7 +20,7 @@ Hence, the service time of a task is $x = CPU/µ$.
 Swapping a task from running to standby and back requires negligible time.
 - At any given time, the sum of all assigned memory workspaces to running tasks on a given server shall not exceed the overall memory of that server.
 
-**Constraints :**  $**µ** = 0.1 $
+**Constraints :**  $**µ** = 0.1$ and $**N**=1 $
 
 ---------------------------------------------------------
 
