@@ -30,9 +30,9 @@ Swapping a task from running to standby and back requires negligible time.
 
 Metrics used to evaluate the performance of the computational cluster:
 
-- `Job Response Time (R):` Job response time is defined as the time elapsed from the arrival of the first task of a job until all tasks belonging to that job have been fully served. The mean job response time (R) is obtained by averaging the response times of all jobs.
+- `Job Response Time (R):` Job response time is defined as the time elapsed from the arrival of the first task of a job until all tasks belonging to that job have been fully served. The mean job response time ($\bar{R}$) is obtained by averaging the response times of all jobs.
 
-- `Job Slowdown (S):` Job slowdown is calculated as the ratio of the response time of a job to the sum of the service times of all tasks belonging to that job. The mean job slowdown (S) is obtained by averaging the slowdown values of all jobs.
+- `Job Slowdown (S):` Job slowdown is calculated as the ratio of the response time of a job to the sum of the service times of all tasks belonging to that job. The mean job slowdown ($\bar{S}$) is obtained by averaging the slowdown values of all jobs.
 
 - `Utilization Coefficient (ρk):` The utilization coefficient of server k (ρk) represents the fraction of time that server k is busy serving tasks. The overall mean utilization coefficient (ρ) is calculated as the average of ρk values for all servers: ρ = (ρ1 + ρ2 + ... + ρN) / N.
 
