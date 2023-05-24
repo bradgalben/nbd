@@ -2,7 +2,8 @@
 
 ## Challenge #2 Outline:
 
-Consider a *computational cluster* composed of a **job dispatcher device** and **$N$ servers**, each equipped with its own processing and memory resources.\
+Consider a *computational cluster* composed of a **job dispatcher device** and **$N$ servers**,\
+each equipped with its own processing and memory resources.\
 The goal is to develop a *dispatching algorithm* and *scheduling algorithms* to achieve the best mean job response time.
 
 ### Assumptions:
