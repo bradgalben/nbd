@@ -6,6 +6,9 @@ Consider a *computational cluster* composed of a **job dispatcher device** and *
 each one equipped with its own processing and memory resources.\
 The goal is to develop a *dispatching algorithm* and *scheduling algorithms* to achieve the best mean job response time.
 
+**Baseline algorithms:**\
+`Least Work Left` dispatching (LWL) and `First Come First Served` scheduling for servers (FCFS)
+
 ### Assumptions:
 
 The following assumptions are made for the problem:
@@ -22,9 +25,6 @@ Swapping a task from running to standby and back requires negligible time.
 - At any given time, the sum of all assigned memory workspaces to running tasks on a given server shall not exceed the overall memory of that server.
 
 **Constraints** : &emsp; **µ** = 0.1 &nbsp;, &emsp; **N** = 64
-
-**Baseline algorithms:**\
-`Least Work Left` dispatching (LWL) and `First Come First Served` scheduling for servers (FCFS)
 
 ### Metrics:
 
