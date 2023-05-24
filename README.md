@@ -13,9 +13,9 @@ The goal is to develop a *dispatching algorithm* and *scheduling algorithms* to 
 
 The following assumptions are made for the problem:
 
-- Each server has the same processing power **µ**, expressed in GNCU.\
+- Each server has the same processing power **µ**, expressed in GNCU (Google Normalized Computing Unit).\
 Hence, the service time of a task is $x = CPU/µ$.
-- Each server has a memory amount of 1 GNMU.
+- Each server has a memory amount of 1 GNMU (Google Normalized Memory Unit).
 - Pre-emption is allowed as well as server sharing, if deemed useful.
 - It is not allowed to kill a job or a task, i.e., all tasks must be worked out eventually.
 - The dispatcher and servers have knowledge of the exact service time of a task upon its arrival.
